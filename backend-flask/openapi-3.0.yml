@@ -69,6 +69,7 @@ paths:
                 type: object
                 items:
                   $ref: '#/components/schemas/Activity'
+
   /api/activities/@{handle}:
     get:
       description: 'Return a feed of activity for a specific user'

@@ -18,9 +18,7 @@ EXPOSE ${PORT}
 # Command to run the code
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
-# FRONTEND_URL="*" BACKEND_URL="*" docker run --rm -p 4567:4567 -it backend-flask
-# export FRONTEND_URL="*"
-# export BACKEND_URL="*"
+# remove the docker container once loaded
 # docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 # docker run --rm -p 4567:4567 -it  -e FRONTEND_URL -e BACKEND_URL backend-flask
 # unset FRONTEND_URL="*"

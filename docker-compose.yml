@@ -1,5 +1,5 @@
 # use docker-compose file
-# directly specify image instead of build
+# directly specify image instead of builDocker
 
 version: "3.8"
 services:
